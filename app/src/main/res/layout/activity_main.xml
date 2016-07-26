@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+     tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:text="西邮新闻"
+        android:textSize="40dp"
+        android:textColor="#4e4c4c"
+        android:gravity="center"
+        android:layout_height="50dp" />
+   <com.example.katherine_qj.news.PullListView android:id="@+id/pulllist"
+    android:layout_below="@+id/text"
+    android:layout_width="fill_parent"
+       android:divider="@null"
+       android:dividerHeight="10dp"
+    android:layout_height="wrap_content">
+
+</com.example.katherine_qj.news.PullListView>
+</RelativeLayout>
